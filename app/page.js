@@ -1,20 +1,21 @@
-import React from "react";
+"use client";
+import Header from "@/header";
+import Preview from "@/components/Preview";
+import Configurator from "@/components/Configurator";
 
-export const metadata = {
-  title: "Fisker Ocean",
-  description: "Fisker Ocean",
-};
 
-function Page() {
+
+
+
+
+function Home() {
   return (
-    <html>
-      <head>
-      </head>
-      <body>
-        <h1>about</h1>
-      </body>
-    </html>
-  );
-}
+    <div onContextMenu={(e) => e.preventDefault()}>
+      <Header />
+      <Preview />
+      <Configurator />      
 
-export default Page;
+    </div>
+  )
+}
+export default Home;

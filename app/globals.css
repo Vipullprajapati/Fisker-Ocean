@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* don't select text */
+@layer base {
+  body {
+   @apply select-none;
+  }
+}
