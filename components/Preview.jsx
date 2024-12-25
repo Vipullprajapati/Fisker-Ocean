@@ -4,8 +4,9 @@ function Preview() {
   return (
     <>
       {/* Exterior Image */}
+
       <Image
-        src="/carimage.png"
+        src="/images/black_pearl/aerostealth.webp"
         alt=""
         width={0}
         height={0}
@@ -20,7 +21,7 @@ function Preview() {
       </section>
       {/* Interior Image */}
       <Image
-        src="/carimage.png"
+        src="/images/black_pearl/slipstream_black.webp"
         alt=""
         width={0}
         height={0}
